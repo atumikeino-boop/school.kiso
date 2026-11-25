@@ -55,7 +55,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     background: white;
     box-shadow: 0 6px 3px -3px rgba(0,0,0,0.1);
 }
@@ -313,7 +313,7 @@ footer .logo img {
 }
 
 #reservation {
-    color: #fff;
+    color: #fff !important;
     padding: 100px 0;
     position: relative;
     background: url(./images/photo_sec04.png) no-repeat center center/ cover;
